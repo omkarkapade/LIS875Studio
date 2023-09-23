@@ -1,0 +1,64 @@
+#Top Gun Movie Scene 1  -- an Adventure program'
+
+print("Maverick & Goose are in their jet scouting for the enemy jet")
+print("Cougar & Merlin in their jets and they too are scouting enemy aircrafts")
+
+person = input("Who will notice and take action against the enemy craft?")
+
+if (person == "Maverick and Goose") or (person == "Maverick" or person == "Goose"): 
+    print("Maverick and Goose are in pursuit of the craft")
+    print("Maverick follows the other jet and tries to rattle the enemy pilot")
+    print("Maverick then proceeds to aims his weapons on the enemy craft")
+    print("The enemy bogey tries to run away")
+    print("Maverick then inverts his craft and takes a polaroid")
+    print("Goose exclaims 'Great balls of fire' in joy")
+elif (person == "Cougar and Merlin") or (person == "Cougar" or person == "Merlin"):
+    print("After the enemy craft circles around Cougar, it scares him")
+    print("Cougar is petrified and looks at the picture of his wife, wondering if this will be his last day on Earth.")
+    print("Merlin tries to console Cougar, in the hopes that he will recover from the experience")
+    print("As Cougar has a panic attack, he begins losing control of the jet")
+    print("Cougar calls Maverick to come and help him")
+else:
+    print("The situation resolved itself.")
+
+
+#Harsh Mehta's Code
+
+print("The Short Story Assignment")
+
+print("Now, here's an interesting story within a story. Suppose, for instance, you, the reader, have to make a choice to read a short story.")
+choice = input("Would you be up for that reading adventure? (Yes/No): ")
+
+if choice.lower() == "yes":
+    option = input("Choose your own short story from: \n1. Ernest Hemingway \n2. Casablanca \n3. Ingmar Bergman\n\n")
+    
+    if option == "Ernest Hemingway":
+        print("""\nOne day Ernest Hemingway was having lunch with friends, and they were talking about the importance of writing with brevity.
+Hemingway bet everyone at the table ten dollars each that he could craft an entire story in six words.
+After the pot was assembled, Hemingway took a napkin and wrote down the following six words:
+\n“For sale: baby shoes, never worn.”""")
+        
+    elif option == "Casablanca":
+        print('''\nHolding the unbeaten record of the world for “most times the movie's title is mentioned in its runtime,” “Casablanca” is a classic of classics. People don't usually think it's the best movie ever made, but within its historical context, “Casablanca” set the tone for decades of cinema to come.
+American Rick Blaine (Humphrey Bogart) and his squeeze Ilsa Lund (Ingrid Bergman) were forced to flee Paris just when their relationship was consolidating because Hitler just couldn't go down without committing every crime imaginable; he also had to cockblock Humphrey Bogart. However, Ilsa suddenly decides to ditch him with a letter, which is the equivalent of sending your loved one a Snapchat of you raising your middle finger as a breakup tactic.
+\nThey see each other again, after a long time, in Rick's popular nightclub. He possesses some special visas that Ilsa and her revolutionary husband need to escape from the Third Reich persecution and flee to the United States. He's reluctant to give up those documents because of the great harm Ilsa caused him; Bogart's character often states that, after what happened to him, he only cares about himself.
+\n\nHowever, in the final scene, Rick makes a huge sacrifice for the greater good. He was planning to give Ilsa's husband the visa but stay with his former girlfriend in Casablanca because she claimed she still loved him. At the moment of truth, he gives them both the visas and stays alone, with one of the most memorable lines in the history of film.
+\nBest lines: Ilsa: “But what about us?” Rick: “We will always have Paris. We didn't have, we, we lost it until you came to Casablanca. We got it back last night.” I: “When I said I would never leave you.” R: “And you never will. But I've got a job to do, too. Where I'm going, you can't follow. What I've got to do, you can't be any part of. Ilsa, I'm no good at being noble, but it doesn't take much to see that the problems of three little people don't amount to a hill of beans in this crazy world. Someday you'll understand that.\n\n''')
+    
+    elif option == "Ingmar Bergman":
+        print('''\nIngmar Bergman is one of the most important pioneers of philosophical cinema. His movies are deep and require multiple viewings to be fully understood.
+“The Seventh Seal” is famous because of the interactions between Death and the main character, Antonius Block, played by Max Von Sydow. They play chess with a beautiful marine landscape as the background, and from that point on, the entity never stops chasing Antonius.
+\nTheir best scene together takes place in a small church, where Antonius is confessing his sins to a priest through the metal bars of a confessionary. The main character wishes to believe in God but is frustrated by the lack of proof of his existence; faith is not enough for him, and it saddens his soul. The priest is actually Death in disguise, and he asks Antonius a few questions in an attempt to find out why he doesn’t want to die. Antonius says he desires knowledge, to meet God in person, to uncover the mystery; he's tired of assumptions and empty prayers.
+\nThe whole setup for this dialogue is masterful. The lighting points out the duality of Death; he's covered in a black robe, but his face is white and shiny. The performances are passionate, and the dilemma the main character faces is the most universal of all, making the scene particularly endearing, due to the fact that anyone could relate to Antonius's existential suffering.
+\n\n\nBest lines: Antonius Block: “We must make an idol of our fear and call it god".\n''')
+    elif option == "Surprise me" :
+        print ()
+    
+    else:
+        print("Invalid option. Please choose a valid short story.")
+
+        
+else:
+    print("It's a pity that you chose to exit early from this literary fun adventure.")
+
+print("\nThankyou for reading this story. Hope you had fun.")
